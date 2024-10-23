@@ -39,8 +39,6 @@ The role ID will set the role people are assinged upon accepting the rules
 Channel ID is where the rules will be posted.
 */
 
-
-
 let rulesSettings = [
     {
         roleId: '1296083272178335776',      
@@ -48,7 +46,7 @@ let rulesSettings = [
     }
 ];
 
-const showCredits = false; /* Please do not remove this line... If you do want to remove it
+const showCredits = true; /* Please do not remove this line... If you do want to remove it
 Please donate to the project: https://buymeacoffee.com/coffeeismyonlyfriend if your using for non-commercial use a simple on off donation will really help us
 If you plan on using the library for more than one bot please consider a tier. If you are a developer making bots for commercial gain. You need to purcase the developer tier.
 */ 
