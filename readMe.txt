@@ -9,6 +9,8 @@
 
 BB-DBotBits Library
 
+Please note this is early beta
+
 Your fastest route to creating Discord bots with minimal effort. Our library is designed to cater to developers at all skill levels, from beginners building their first bot to experienced users seeking to streamline their development process.
 
 About:
