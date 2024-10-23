@@ -28,9 +28,9 @@ Some servers start with 0 and JS hates that so please ensure it's enclosed in ""
 */
 
 let ticketAccess = [
-    'IdOfModOrAdmin1',
-    'IdOfModOrAdmin2',
-    'IdOfModOrAdmin13'
+    '1296083272178335776',
+    '1296083272178335776',
+    '1296083272178335776'
 ];
 
 /* This section is for the rules 
@@ -43,13 +43,16 @@ Channel ID is where the rules will be posted.
 
 let rulesSettings = [
     {
-        roleId: 'RoleIdOfTheRoleYouWishToAssignAfterCreation',      
-        channelID: 'RulesChannelID'  
+        roleId: '1296083272178335776',      
+        channelID: '1297203259307462788'  
     }
 ];
 
-const showCredits = true; /* Please do not remove this line... If you do want to remove it
-Please donate to the project: https://buymeacoffee.com/coffeeismyonlyfriend */
+const showCredits = false; /* Please do not remove this line... If you do want to remove it
+Please donate to the project: https://buymeacoffee.com/coffeeismyonlyfriend if your using for non-commercial use a simple on off donation will really help us
+If you plan on using the library for more than one bot please consider a tier. If you are a developer making bots for commercial gain. You need to purcase the developer tier.
+*/ 
 
 module.exports = { ticketAccess, rulesSettings, showCredits, botOnlineStatus, botStatusTxt, botDoing, showStatus};
+
 
