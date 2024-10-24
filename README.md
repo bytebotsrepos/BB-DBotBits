@@ -58,6 +58,7 @@ Play a Radio Stream:
 discordRadio('RadioName', 'https://streamurl.com', 'https://imageurl.com');
 
 // Call XP
+
 discordXP();
 
 Embed a Message:
