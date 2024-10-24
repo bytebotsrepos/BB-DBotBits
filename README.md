@@ -45,6 +45,7 @@ const { checkSpamRate } = require('./BB-DBotBits/checkSpamRate'); // Import chec
 const { discordPurgeCommands } = require('./BB-DBotBits/discordPurge'); // Import purge command setup
 const { settings: discordRules } = require('./BB-DBotBits/discordRules'); // Import Rules
 const { discordReplyEmbed } = require('./BB-DBotBits/discordReplyEmbed.js'); // Import the embed function
+const { discordXP } = require('./BB-DBotBits/discordXP.js'); // Embed
 const token = require('./token'); // Import your bot token
 
 Example Function Calls:
@@ -55,6 +56,9 @@ discordReply('helloworld', 'Ohhh, so it starts!');
 
 Play a Radio Stream:
 discordRadio('RadioName', 'https://streamurl.com', 'https://imageurl.com');
+
+// Call XP
+discordXP();
 
 Embed a Message:
 discordReplyEmbed(
@@ -74,9 +78,6 @@ discordTickets();
 
 Check Spam Rate:
 checkSpamRate();
-
-Bot Login:
-discordLogin(token);
 
 Support:
 Need help? Join our Discord server: https://discord.gg/pqbUrYN9h4 for assistance and to connect with other developers.
