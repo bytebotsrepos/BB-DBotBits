@@ -52,7 +52,7 @@ If you plan on using the library for more than one bot please consider a tier. I
 */ 
 
 //XP System
-promoteUserOnXP = false; // Turn of promote. This is usefull if you have newbies role and want to promote to members.
+promoteUserOnXP = false; // Turn off promote. This is usefull if you have newbies role and want to promote to members.
 requiredPrmoteLevel = 5; // Level required to be promoted to next Discord rank
 promotionRoleId = 'YOUR_ROLE_ID';
 
